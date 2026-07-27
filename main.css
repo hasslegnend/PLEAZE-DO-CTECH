@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
 body {
-    background-color: #fbfbff;
+    background-color: #778DA9;
 }
 
 header {
@@ -21,7 +21,7 @@ img {
 
 nav.links {
     display: flex;
-    background: #1b2838;
+    background: #293a58;
     padding: 0;
     margin: 0;
     }
@@ -43,4 +43,10 @@ nav.links a:hover {
     padding: 0;
     margin: 0;
     display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
