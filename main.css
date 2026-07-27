@@ -12,7 +12,7 @@ header {
 }
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
+    font-family:'Bricolage+Grotesque', sans-serif;
 }
 
 img {
@@ -56,4 +56,9 @@ h1 {
  text-align: left;
  margin-right: 900px;
  font-size: 75px;
+}
+
+span {
+    font-family:'Orbitron';
+
 }
