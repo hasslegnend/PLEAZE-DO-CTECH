@@ -50,3 +50,9 @@ nav.links a:hover {
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+ text-align: left;
+ margin-right: 200px;
+
+}
