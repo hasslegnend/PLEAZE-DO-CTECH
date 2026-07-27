@@ -62,3 +62,7 @@ span {
     font-family:'Orbitron';
 
 }
+
+nav.controller{
+    width: auto;
+}
