@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 body {
     background-color: #778DA9;
@@ -11,7 +12,7 @@ header {
 }
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
+    font-family:'Bricolage+Grotesque', sans-serif;
 }
 
 img {
@@ -53,7 +54,11 @@ nav.links a:hover {
 
 h1 {
  text-align: left;
- margin-right: 200px;
- font-size: 200px;
+ margin-right: 900px;
+ font-size: 75px;
+}
+
+span {
+    font-family:'Orbitron';
 
 }
