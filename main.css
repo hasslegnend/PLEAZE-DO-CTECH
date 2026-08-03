@@ -13,14 +13,15 @@ header {
 
 h1 {
     font-family:'Bricolage+Grotesque', sans-serif;
+    color: rgb(10, 53, 113);
 }
 
 h2 {
-      font-family: 'Roboto Slab';
+      font-family: 'Roboto Slabs';
 }
 
 img {
- width: 600px;
+ width: fit-content;
  height: auto;
 }
 
@@ -95,3 +96,39 @@ div.games {
 nav.Bottom {
     font-family: 'Roboto Slab';
 }
+
+
+
+
+nav.checkout-page {
+    display: flex;
+    padding: 40px 20px;
+    justify-content: center;
+}
+
+form#Pay {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 800px; 
+
+    background: #0d1b2a;
+    border: 1px solid #293a58;
+    border-radius: 12px;
+
+}
+
+form#Pay input[type="email"],
+form#Pay input[type="name"],
+form#Pay input[type="card-number"] {
+    background: #1b263b;
+    border: 1px solid #415a77;
+    border-radius: 6px;
+    padding: 12px;
+    color: white;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+}
+
