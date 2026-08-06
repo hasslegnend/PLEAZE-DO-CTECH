@@ -9,6 +9,6 @@ document.getElementById("Pay").addEventListener("submit", function(e){
         return;
     }
 
-   window.location.href = "thankyou.html"
+   window.location.href = "../thankyou.html" 
 });
 s

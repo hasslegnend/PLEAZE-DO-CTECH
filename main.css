@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 body {
-    background-color: #778DA9;
+    background-color: RGB(10, 25, 47);
 }
 
 header {
@@ -11,13 +11,36 @@ header {
     min-height: 50px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    width: fit-content;
+
+}
+
+.container img {
+    max-width: 1000px;
+    height :auto;
+}
+
+.text {
+
+    flex: 1;
+  display: inline-block; 
+  padding: 16px 24px;   
+  background-color: rgb(14, 55, 117); 
+  color: rgb(0, 212, 255);        
+  border-radius: 16px;   
+}
+
 h1 {
     font-family:'Bricolage+Grotesque', sans-serif;
-    color: rgb(10, 53, 113);
+    color: RGB(0, 212, 255);
 }
 
 h2 {
-      font-family: 'Roboto Slabs';
+      font-family: 'Orbitron';
 }
 
 img {
@@ -31,6 +54,17 @@ nav.links {
     padding: 0;
     margin: 0;
     }
+
+
+nav.controller {
+    display: block;
+    line-height: 0;
+}
+
+
+nav.controller img {
+    vertical-align: top;
+}
 
 nav.links a {
     display: block;
@@ -59,18 +93,28 @@ nav.links a:hover {
 
 h1 {
  text-align: left;
- margin-right: 900px;
  font-size: 75px;
+ font-family: 'Orbitron';
+ padding: 10px;
+ margin: auto;
+  text-shadow: 0 0 10px rgba(66, 135, 245, 0.8),
+                 0 0 20px rgba(66, 135, 245, 0.6),
+                 0 0 40px rgba(66, 135, 245, 0.4);
 }
 
 h2 {
     text-align: left;
-    margin-right: 900px;
-    font-size: 50;
+    font-size: 34px;
+    color: rgb(0, 212, 255);
 }
 
 span {
     font-family:'Orbitron';
+    color: rgb(187, 30, 30);
+     text-shadow: 9px 19px 9px rgba(180, 23, 23, 0.5);
+     text-shadow: 0 0 10px rgba(187, 30, 30, 0.8),
+                    0 0 20px rgba(187, 30, 30, 0.6),
+                    0 0 20px rgba(187, 30, 30, 0.4);
 
 }
 
@@ -79,7 +123,7 @@ nav.controller{
 }
 
 p {
-      color: #778DA9;
+     color: rgb(0, 212, 255);
     font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     line-height: 1.4;
@@ -132,3 +176,13 @@ form#Pay input[type="card-number"] {
     font-size: 14px;
 }
 
+
+div.games {
+    color:white;
+    
+}
+
+nav.Bottom {
+    color:white;
+    font-family: 'Orbitron';
+}
