@@ -1,55 +1,66 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="main.css">
 <html>
-
 <head> 
-<title>THE CLASS ANTHOLOGY</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>THE CLASS ANTHOLOGY</title>
 </head>
-
 <body>
+
 <header>
-<nav class="links">
-    <ul>
-    <li> <a href="index.html">HOME</a></li>
-    <li> <a href="SUBPAGES/aboutus.html">ABOUT US</a></li>
-    <li> <a href="SUBPAGES/ourbundles.html">OUR BUNDLES</a></li>
-    <li> <a href="SUBPAGES/checkout.html">CHECKOUT</a></li>
-</ul>
-</nav>
+    <nav class="links">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="SUBPAGES/aboutus.html">ABOUT US</a></li>
+            <li><a href="SUBPAGES/ourbundles.html">OUR BUNDLES</a></li>
+            <li><a href="SUBPAGES/checkout.html">CHECKOUT</a></li>
+        </ul>
+    </nav>
 </header>
 
-
-
 <nav class="controller">
-<img src="IMAGES/CYBERMONDAY2.png" alt = "Sale 50% off!">
+    <img src="IMAGES/CYBERMONDAY2.png" alt="Sale 50% off!">
 </nav>
 
-
 <h1>GREAT GAMES WITH <span>ACE</span> FOR ONLY $5.99</h1>
-<div class="container">
-    <img src="IMAGES/BIG.png" alt= "All 3 of our games">
+
+<!-- Main games overview section -->
+<div class="cards-container">
+    <img src="IMAGES/BIG.png" alt="All 3 of our games">
     <div class="text">
-    <h2>Confront the cyber underworld in Cyber Boss Rush, a bullet hell boss rush game with a unique twist, or Prepare for a simulation against dangerous hackers and scammers with Grand Cyber Security, and Data Double is a fast paced game focused on cybersecurity awareness where you play defending your own system from a rogue AI.</h2>
+        <h2>Confront the cyber underworld in Cyber Boss Rush, a bullet hell boss rush game with a unique twist, or Prepare for a simulation against dangerous hackers and scammers with Grand Cyber Security, and Data Double is a fast paced game focused on cybersecurity awareness where you play defending your own system from a rogue AI.</h2>
     </div>
 </div>
 
-<section class="About our bundles">
-    <h2 class="section-title">About our bundles </h2>
-    <div class="bundle card">
-        <h3> Bundled with care </h3>
-        <p> All bundles of The Class Anthropology are hand-picked by us, and curated just for you </p>
-        
+<!-- Bundles section with fixed flex alignment structure -->
+<section class="About-our-bundles">
+    <h2 class="section-title">About our bundles</h2>
+    
+    <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="bundle-card">
+            <h3>Bundled with care</h3>
+            <p>All bundles of The Class Anthropology are hand-picked by us, and curated just for you</p>
+            <div class="bundle-image">
+                <img src="IMAGES/hand.png" alt="Hand holding a bundle of games">
+            </div>
+        </div>
 
+        <!-- Card 2 -->
+        <div class="bundle-card">
+            <h3>A sum of our money goes toward charity</h3>
+            <p>When you buy a bundle, you donate some money to charity</p>
+            <div class="card-icon green-ticket">🙏</div>
+        </div>
 
+        <!-- Card 3 -->
+        <div class="bundle-card">
+            <h3>Support Indie Developers</h3>
+            <p>By purchasing our bundles, you are supporting independent game developers and helping them continue to create amazing games.</p>
+            <div class="card-icon heart">❤️</div>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-

@@ -108,6 +108,13 @@ h2 {
     color: rgb(0, 212, 255);
 }
 
+h3{
+    text-align: left;
+    font-size: 24px;
+    color: rgb(0, 212, 255);
+    font-family: 'Orbitron';
+}
+
 span {
     font-family:'Orbitron';
     color: rgb(187, 30, 30);
@@ -185,4 +192,58 @@ div.games {
 nav.Bottom {
     color:white;
     font-family: 'Orbitron';
+}
+
+.About-our-bundles {
+    background-color: rgb(14, 55, 117);
+    padding: 40px 20px;
+    width: 100% ;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+}
+
+.About-our-bundles {
+    background-color: rgb(11, 42, 89);
+    padding: 40px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bundle-card {
+    flex: 1 1 0%;
+    min-width: 0;
+    background-color: rgb(19, 54, 106);
+    border-radius: 6px;
+    padding: 32px 24px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bundle-card img {
+    max-width: 60px;
+    height: auto;
+    width: 100%;
 }
