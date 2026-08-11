@@ -9,7 +9,8 @@ html, body {
 }
 
 body {
-    background-color: RGB(10, 25, 47);
+    background: linear-gradient(180deg, #0d1b2a 0%, #1b263b 40%, #415a77 100%);
+
 }
 
 header {
