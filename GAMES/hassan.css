@@ -1,0 +1,14 @@
+body.hassan {
+ background: #000814;
+ background-image: linear-gradient(rgba(0,8,20,0.85), rgba(0,8,20,0.9))
+
+}
+
+.gametitle {
+    text-align: center;
+
+}
+
+.gametitle h1 {
+    text-align: center;
+}
