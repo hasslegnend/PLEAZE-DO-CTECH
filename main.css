@@ -179,6 +179,7 @@ form#Pay {
 
 form#Pay input[type="email"],
 form#Pay input[type="name"],
+form#Pay input[type="text"],
 form#Pay input[type="card-number"] {
     background: #1b263b;
     border: 1px solid #415a77;
@@ -286,6 +287,100 @@ nav.Bottom {
 
 footer {
     font-size: 26px 
-    
-    
 }
+
+.disclaimer {
+    text-align: center;
+}
+
+
+/* HASSAN PAGE CSS */
+body.hassan {
+ background: #000814;
+    background-image: 
+    linear-gradient(rgba(61, 21, 9, 0.8), rgba(23, 12, 83, 0.9)),
+    repeating-linear-gradient(90deg, transparent, transparent 30px, rgba(0,180,255,0.3) 30px, rgba(124, 29, 29, 0.3) 31px);
+    min-height: 100vh;
+
+}
+
+.top {
+    text-align: center;
+}
+
+.gametitle {
+    text-align: center;
+    padding: 10px 20px 60px;
+}
+
+.gametitle h1 {
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+
+.details img {
+    max-width: 500px;
+    border: 1px solid #2b3d8f;
+    box-shadow: 0 0 20px rgba(66, 135, 245, 0.3);
+    display: block;
+    margin: 0 auto;  
+}
+
+.tutorial, .features {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tutorial h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tutorial ul {
+ display: block;
+ list-style-type: disc;
+ padding-left: 70px;
+}
+
+.tutorial li {
+    font-family: 'Orbitron';
+    color: rgb( 0, 212, 255);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.featuregrid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature {
+    flex: 1;
+    background: rgb(10, 29, 58);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+.feature p {
+    font-size: 16px;
+}
+
+/* ADY PAGE CSS */
+
+
+
+
+
+
+
+/* EMAD PAGE  CSS */
