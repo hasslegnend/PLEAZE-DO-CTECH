@@ -5,7 +5,27 @@
     <title> Ady's cool and awesome page</title>
 </head>
 <body>
-<div class="slideshow">
-    <div class="slideshow-inside">
-        <div class="slide">
-            <img src=""
+<section class="ady-body">
+    <div class="ady-header">
+        <h1>CYBER BOSS RUSH</h1>
+    </div>
+
+    <div class="ady-slideshow">
+        <div class="ady-slides">
+            <img class="ady-slide active" src="../IMAGES/Cyber_boss_rush.png" alt="Cyber Boss Rush gameplay 1">
+            <img class="ady-slide" src="../IMAGES/Cyber_boss_rush2.png" alt="Cyber Boss Rush gameplay 2">
+            <img class="ady-slide" src="../IMAGES/cyber_boss_rush_3.png" alt="Cyber Boss Rush gameplay 3">
+            <img class="ady-slide" src="../IMAGES/cyber_boss_rush_4.png" alt="Cyber Boss Rush gameplay 4">
+            <img class="ady-slide" src="../IMAGES/cyber_boss_rush_5.png" alt="Cyber Boss Rush gameplay 5">
+        </div>
+        <button class="ady-arrow ady-prev" onclick="adyChangeSlide(-1)">&#10094;</button>
+        <button class="ady-arrow ady-next" onclick="adyChangeSlide(1)">&#10095;</button>
+        <div class="ady-dots">
+            <span class="ady-dot active" onclick="adyGoToSlide(0)"></span>
+            <span class="ady-dot" onclick="adyGoToSlide(1)"></span>
+            <span class="ady-dot" onclick="adyGoToSlide(2)"></span>
+            <span class="ady-dot" onclick="adyGoToSlide(3)"></span>
+            <span class="ady-dot" onclick="adyGoToSlide(4)"></span>
+        </div>
+    </div>
+</section>
