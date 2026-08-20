@@ -1,10 +1,30 @@
-<DOCTYPE html>
-<html>
-<head> 
-    <link rel="stylesheet" href="ady.css">
-    <title> Ady's cool and awesome page</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Ady's cool and awesome page</title>
 </head>
+
 <body>
+<header>
+    <nav class="links">
+        <ul>
+            <li><a href="../index../html">HOME</a></li>
+            <li><a href="../SUBPAGES/aboutus.html">ABOUT US</a></li>
+            <li><a href="../SUBPAGES/ourbundles.html">OUR BUNDLES</a></li>
+            <li><a href="../SUBPAGES/checkout.html">CHECKOUT</a></li>
+            <li><a href="hassan.html">DATA DOUBLE</a></li>
+            <li><a href="ady.html">CYBER BOSSFIGHT</a></li>
+            <li><a href="emad.html">GRAND CYBER SECURITY</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
 <section class="ady-body">
     <div class="ady-header">
         <h1>CYBER BOSS RUSH</h1>
@@ -12,14 +32,16 @@
 
     <div class="ady-slideshow">
         <div class="ady-slides">
-            <img class="ady-slide active" src="../IMAGES/Cyber_boss_rush.png" alt="Cyber Boss Rush gameplay 1">
-            <img class="ady-slide" src="../IMAGES/Cyber_boss_rush2.png" alt="Cyber Boss Rush gameplay 2">
-            <img class="ady-slide" src="../IMAGES/cyber_boss_rush_3.png" alt="Cyber Boss Rush gameplay 3">
-            <img class="ady-slide" src="../IMAGES/cyber_boss_rush_4.png" alt="Cyber Boss Rush gameplay 4">
-            <img class="ady-slide" src="../IMAGES/cyber_boss_rush_5.png" alt="Cyber Boss Rush gameplay 5">
+            <img class="ady-slide active" src="../IMAGES/Cyber boss rush.png" alt="Cyber Boss Rush gameplay 1">
+            <img class="ady-slide" src="../IMAGES/Cyber boss rush2.png" alt="Cyber Boss Rush gameplay 2">
+            <img class="ady-slide" src="../IMAGES/cyber boss rush 3.png" alt="Cyber Boss Rush gameplay 3">
+            <img class="ady-slide" src="../IMAGES/cyber boss rush 4.png" alt="Cyber Boss Rush gameplay 4">
+            <img class="ady-slide" src="../IMAGES/cyber boss rush 5.png" alt="Cyber Boss Rush gameplay 5">
         </div>
+
         <button class="ady-arrow ady-prev" onclick="adyChangeSlide(-1)">&#10094;</button>
         <button class="ady-arrow ady-next" onclick="adyChangeSlide(1)">&#10095;</button>
+
         <div class="ady-dots">
             <span class="ady-dot active" onclick="adyGoToSlide(0)"></span>
             <span class="ady-dot" onclick="adyGoToSlide(1)"></span>
@@ -29,3 +51,137 @@
         </div>
     </div>
 </section>
+
+<script>
+let adyCurrentSlide = 0;
+const adySlides = document.querySelectorAll('.ady-slide');
+const adyDots = document.querySelectorAll('.ady-dot');
+
+function adyShowSlide(index) {
+    adySlides.forEach(slide => slide.classList.remove('active'));
+    adyDots.forEach(dot => dot.classList.remove('active'));
+    adySlides[index].classList.add('active');
+    adyDots[index].classList.add('active');
+    adyCurrentSlide = index;
+}
+
+function adyChangeSlide(direction) {
+    let newIndex = adyCurrentSlide + direction;
+    if (newIndex < 0) newIndex = adySlides.length - 1;
+    if (newIndex >= adySlides.length) newIndex = 0;
+    adyShowSlide(newIndex);
+}
+
+function adyGoToSlide(index) {
+    adyShowSlide(index);
+}
+
+setInterval(() => adyChangeSlide(1), 5000);
+</script>
+
+
+<section class="ady-about">
+    <h2>About the Game</h2>
+    <p class="ady-about-text">Trapped in a nightmare of blinking phishing lures and glowing spam, Robbie never asked to be here. One wrong click, and the internet turned against him.</p>
+
+    <p class="ady-about-text">Now every question is life or death. Answer right, and you strike back hard. Answer wrong, and watch him grow stronger, angrier, hungrier for your data.</p>
+
+    <p class="ady-about-text">Retro pixels. Pounding chiptunes. Real cybersecurity knowledge disguised as chaos.</p>
+
+    <p class="ady-about-hook">The Phisherman is waiting. Do you have what it takes to survive?</p>
+</section>
+
+<section class="tutorial">
+    <h2>How to Play</h2>
+    <ul>
+        <li>Move Robbie left and right to dodge phishing lures and spam while the fight is happening</li>
+        <li>A cybersecurity question appears on screen mid-battle, keep moving while you read it</li>
+        <li>Choose the correct answer to strike back and deal damage</li>
+        <li>Wrong answers make the boss stronger, so think fast without stopping</li>
+        <li>Survive the chaos and defeat the Phisherman before he overwhelms you</li>
+    </ul>
+</section>
+
+<section class="features">
+    <div class="featuregrid">
+        <div class="feature">
+            <h3>Real Cyber Lessons</h3>
+            <p>Every question tests real cybersecurity knowledge, phishing, passwords, and malware.</p>
+        </div>
+        <div class="feature">
+            <h3>Retro Chiptune OST</h3>
+            <p>Pixel art visuals and pounding chiptune music keep every fight intense.</p>
+        </div>
+        <div class="feature">
+            <h3>One Boss, Rising Difficulty</h3>
+            <p>The Phisherman gets faster and angrier the longer the fight goes on.</p>
+        </div>
+    </div>
+</section>
+
+<section class="ady-faq">
+    <h2>Questions & Answers</h2>
+
+    <details class="ady-faq-item">
+        <summary>What happens if I get a question wrong?</summary>
+        <p>The Phisherman grows stronger and angrier, making the fight harder for the rest of the round.</p>
+    </details>
+
+    <details class="ady-faq-item">
+        <summary>Do I need cybersecurity knowledge to play?</summary>
+        <p>No prior knowledge needed. Every question is designed to teach you as you play.</p>
+    </details>
+
+    <details class="ady-faq-item">
+        <summary>Can I dodge attacks while answering a question?</summary>
+        <p>Yes. The boss keeps attacking while the question is on screen, so you have to think and move at the same time.</p>
+    </details>
+
+    <details class="ady-faq-item">
+        <summary>How many bosses are there?</summary>
+        <p>One boss, the Phisherman, but he gets faster and more dangerous the longer the fight goes.</p>
+    </details>
+
+    <details class="ady-faq-item">
+        <summary>What topics do the questions cover?</summary>
+        <p>Real-world cybersecurity issues like phishing scams, password safety, and malware.</p>
+    </details>
+</section>
+<div class="footer-container">
+    <div class="footer">
+        <div class="footer-heading1">
+            <h3>About us </h3>
+            <a href="#">Blog</a>
+            <a href="#">Demo</a>
+            <a href="#">Customers</a>
+            <a href="#">Investors</a>
+            <a href="#">Terms of service</a>
+        </div>
+
+        <div class="footer-heading2">
+            <h3>Contact us </h3>
+            <a href="#">Jobs</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Sponsorships</a>
+        </div>
+
+        <div class="footer-heading3">
+            <h3>Social media </h3>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+
+        <div class="footer-email-form">
+            <h2>Join our newsletter</h2>
+            <input type="email" placeholder="Enter your email address" id="footer-email">
+            <input type="submit" value="Sign up" id="footer-emai-btn">
+            <small>*Does not work</small>
+        </div>
+    </div>    
+</div>
+
+</body>
+</html>
