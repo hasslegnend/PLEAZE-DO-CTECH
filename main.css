@@ -552,6 +552,18 @@ body.hassan {
     margin-bottom: 8px;
 }
 
+.game-embed {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game-embed iframe {
+    border: 1px solid #2b3d8f;
+    box-shadow: 0 0 20px rgba(66, 135, 245, 0.3);
+    border-radius: 8px;
+}
+
 
 .feature p {
     font-size: 16px;
