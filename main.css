@@ -722,7 +722,12 @@ body.hassan {
 
 div.top-writing {
     text-align: center;
-  font-family: 'Orbitron', sans-serif;
-  color: rgb(0, 212, 255);
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(0, 212, 255);
+}
 
+.top-text  {
+    font-size: 48px;
+    margin-bottom: 5px;
+    text-align: center;
 }
