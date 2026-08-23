@@ -47,13 +47,11 @@ nav.controller {
     display: block;
     line-height: 0;
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 nav.controller img {
     vertical-align: top;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -68,6 +66,8 @@ ul {
 img {
     height: auto;
 }
+
+
 
 h1 {
     text-align: left;
@@ -111,43 +111,7 @@ span {
                  0 0 20px rgba(255, 90, 90, 0.4);
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-    flex-wrap: wrap;
-}
 
-.Big-3 {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-direction: row;
-}
-
-.container img {
-    max-width: 100%;
-    width: 1000px;
-    height: auto;
-}
-
-.text {
-    flex: 1;
-    width: 100%;
-    display: inline-block;
-    padding: 16px 24px;
-    background-color: rgb(14, 55, 117);
-    color: rgb(0, 212, 255);
-    border-radius: 16px;
-    font-size: 12000000px;
-}
-
-.text h2 {
-    font-size: 30px;
-}
 
 div.games {
     color: white;
@@ -709,3 +673,56 @@ body.hassan {
 }
 
 /* EMAD PAGE  CSS */
+
+.bundle-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.bundle-img {
+    flex: 0 0 400px;
+}
+
+.bundle-img img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.bundle-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.bundle-text ul {
+    display: block;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.bundle-text li {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(0, 212, 255);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.classanthology {
+    text-align: center;
+}
+
+div.top-writing {
+    text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(0, 212, 255);
+
+}
