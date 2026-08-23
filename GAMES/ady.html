@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<!-- Nav bar -->
 <header>
     <nav class="links">
         <ul>
@@ -23,7 +24,7 @@
 
 
 
-
+<!-- Title + slideshow -->
 <section class="ady-body">
     <div class="ady-header">
         <h1>CYBER BOSS RUSH</h1>
@@ -51,6 +52,7 @@
     </div>
 </section>
 
+<!-- Slideshow logic -->
 <script>
 let adyCurrentSlide = 0;
 const adySlides = document.querySelectorAll('.ady-slide');
@@ -79,6 +81,7 @@ setInterval(() => adyChangeSlide(1), 5000);
 </script>
 
 
+<!-- About the game -->
 <section class="ady-about">
     <h2>About the Game</h2>
     <p class="ady-about-text">Trapped in a nightmare of blinking phishing lures and glowing spam, Robbie never asked to be here. One wrong click, and the internet turned against him.</p>
@@ -90,6 +93,7 @@ setInterval(() => adyChangeSlide(1), 5000);
     <p class="ady-about-hook">The Phisherman is waiting. Do you have what it takes to survive?</p>
 </section>
 
+<!-- How to play -->
 <section class="tutorial">
     <h2>How to Play</h2>
     <ul>
@@ -101,6 +105,7 @@ setInterval(() => adyChangeSlide(1), 5000);
     </ul>
 </section>
 
+<!-- Feature grid -->
 <section class="features">
     <div class="featuregrid">
         <div class="feature">
@@ -118,6 +123,7 @@ setInterval(() => adyChangeSlide(1), 5000);
     </div>
 </section>
 
+<!-- FAQ -->
 <section class="ady-faq">
     <h2>Questions & Answers</h2>
 
@@ -146,7 +152,20 @@ setInterval(() => adyChangeSlide(1), 5000);
         <p>Real-world cybersecurity issues like phishing scams, password safety, and malware.</p>
     </details>
 </section>
+
+<!-- Game demo -->
+<div class="ady-embed">
+    <h2 class="ady-embed-title">Try our game demo for free</h2>
+<iframe src="https://scratch.mit.edu/projects/1332995435/embed" 
+        width="485" 
+        height="402" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+</div>
+
     
+<!-- Footer -->
 <div class="footer-container">
     <div class="footer">
         <div class="footer-heading1">
@@ -174,6 +193,7 @@ setInterval(() => adyChangeSlide(1), 5000);
             <a href="#">Facebook</a>
         </div>
 
+        <!-- Newsletter -->
         <div class="footer-email-form">
             <h2>Join our newsletter</h2>
             <input type="email" placeholder="Enter your email address" id="footer-email">
